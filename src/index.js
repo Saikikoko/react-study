@@ -4,10 +4,23 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// 表达式用花括号包裹
+const name = 'react'
+const obj = {
+
+}
+// 函数
+function formatName(name) {
+  return name +'123'
+}
+let jsx = 
+<div>title,{name}
+  <div>
+    {formatName('sb')}
+  </div>
+</div>
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  jsx,
   document.getElementById('root')
 );
 
