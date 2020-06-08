@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ReduxPage from './pages/ReduxPage';
+import Modal from './pages/Modal';
 
 ReactDOM.render(
-  <App/>,
+  // <App/>,
+  <ReduxPage/>,
+  // <Modal/>,
   document.getElementById('root')
 );
 
